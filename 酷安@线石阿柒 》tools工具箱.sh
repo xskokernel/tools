@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-echo 6
 while true; do
 if [[ "$ym" =~ ^[1-3]$ ]]; then
 echo "当前页码为: $ym"
