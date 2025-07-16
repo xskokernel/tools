@@ -11,6 +11,7 @@ case $adbgjx in
             device_path=$(echo "$adbdevices" | tr -d '[]" ')
             if [ -z "$device_path" ]; then
             echo "Error：未读取到设备哦，请检查USB连接!"
+            exit 1
             sleep 1
             fi
             echo "成功读取到设备，开始连接... (调出窗口时请按确定)
