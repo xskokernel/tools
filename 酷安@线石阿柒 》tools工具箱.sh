@@ -539,7 +539,7 @@ read -p "  您的选择：" xz
             sleep 0.5
             clear
             echo "返回到启动页..."
-            bash -c "$(curl -sL )"
+            bash -c "$(curl -sL https://raw.githubusercontent.com/xskokernel/tools/refs/heads/main/%E5%90%AF%E5%8A%A8.sh)"
             ;;
         *)
             echo "输入的选项不存在，请重新输入"
