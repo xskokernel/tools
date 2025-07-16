@@ -147,6 +147,8 @@ read -p "  您的选择：" xz
             apt install android-tools termux-api
             pkg install git
             git clone https://gitee.com/rxbth/XiaoMi_UnLock.git
+            cd XiaoMi_UnLock/
+            ./setup2.sh
             echo "________________________
             安装前置-步骤结束...
             ________________________"
