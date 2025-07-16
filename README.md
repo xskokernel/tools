@@ -1,0 +1,2 @@
+# tools
+flashtools(termux)
